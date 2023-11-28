@@ -3,7 +3,7 @@
   "tabWidth": 2,
   "semi": false,
   "singleQuote": true,
-  "useTabs": true,
+  "useTabs": false,
   "jsxSingleQuote": true,
   "bracketSpacing": true,
   "arrowParens": "avoid"

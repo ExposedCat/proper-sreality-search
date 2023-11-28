@@ -1,8 +1,12 @@
 # Built application
 build
+estates/*.json
 
 # Built dependencies
 node_modules
 
 # Sensitive data
 .env
+
+# Package manager
+yarn-error.log
