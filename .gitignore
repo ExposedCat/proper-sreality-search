@@ -5,8 +5,9 @@ estates/*.json
 # Built dependencies
 node_modules
 
-# Sensitive data
+# Sensitive/huge data
 .env
+assets/model.gguf
 
 # Package manager
 yarn-error.log

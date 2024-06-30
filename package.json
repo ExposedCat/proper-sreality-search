@@ -23,6 +23,7 @@
     "typescript": "^5.3.2"
   },
   "scripts": {
+    "ai:build-backend": "export NODE_LLAMA_CPP_CMAKE_OPTION_LLAMA_CLBLAST=1 && node-llama-cpp download --cuda",
     "compile": "tsc",
     "bg:start": "npm run compile && pm2 start build/index.js --name PROJECT",
     "bg:restart": "npm run prepare && pm2 restart PROJECT",
@@ -38,7 +39,8 @@
     "configuration"
   ],
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "node-llama-cpp": "^2.8.0"
   },
   "type": "module"
 }
