@@ -1,5 +1,5 @@
 # Built application
-build
+dist
 estates/*.json
 
 # Built dependencies
@@ -8,6 +8,3 @@ node_modules
 # Sensitive/huge data
 .env
 assets/model.gguf
-
-# Package manager
-yarn-error.log
